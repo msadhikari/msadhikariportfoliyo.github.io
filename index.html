@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>MYPORTFOLIYO</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+   <script src="index.js"></script>
+</head>
+<body>
+  <div class="preloader">
+    <img src="831.gif"></img>
+  </div>
+  <div class="header">
+     <nav class="navbar navbar-expand-lg" id="home">
+  <ul class="navbar-nav nav-pills m-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="#home">
+             <i class="fa fa-home"></i>
+          </a>
+        </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#portfoliyo">Portfoliyo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="#demo">Review</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="#expertness">Services</a>
+    </li>
+       <li class="nav-item">
+      <a class="nav-link " href="#about_me">About </a>
+    </li>
+       <li class="nav-item">
+      <a class="nav-link sdm-active"href="#contact_me">Contact</a>
+  </ul>
+</nav>
+<!----nav closed-->
+<img src="img001.jpeg"class="rounded-circle"></img>
+<div class="username">
+  <h3>Mahendra Singh</h3>
+</div>
+<div class="userwork">
+  <h5>WEB DEVELOPER</h5>
+</div>
+<hr>       
+ <div class="text-center margin-bottom-135">
+            <ul class="social-networks spin-icon d-flex">
+        <li><a href="https://www.google.com/search?q=google.comg&oq=google.comg&aqs=chrome..69i57j0l5.8346j0j7&sourceid=chrome&ie=UTF-8"><i class="fa fa-google  fa-2x mt-3"></i></a></li>
+              <li><a href="https://flatuicolors.com/palette/defo"><i class="fa fa-facebook  fa-2x  mt-3"></i></a></li>
+              <li><a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp"><i class="fa fa-youtube  fa-2x  mt-3"></i></a></li>
+              <li><a href="https://fontawesome.com/"><i class="fa fa-instagram  fa-2x  mt-3"></i></a></li>
+            </ul>
+          </div>
+       <div class="overlay"></div> 
+  </div>
+  <!--header closed-->
+  <section class="container"id="portfoliyo">
+   <div class="main">
+<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Web</button>
+  <button class="btn" onclick="filterSelection('cars')"> Picture</button>
+  <button class="btn" onclick="filterSelection('people')"> Achivement</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="img009.jpeg"alt="Mountains"style="width:100%">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+       <img src="img001.jpeg" alt="Mountains"style="width:100%">
+
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+       <img src="img009.jpeg"alt="Mountains"style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+    <img src="img001.jpeg" alt="Mountains"style="width:100%">
+
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+
+       <img src="img009.jpeg"alt="Mountains"style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+
+       <img src="img001.jpeg" alt="Mountains"style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+             <img src="img009.jpeg"alt="Mountains"style="width:100%">
+
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+             <img src="img001.jpeg" alt="Mountains"style="width:100%">
+
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+             <img src="img009.jpeg"alt="Mountains"style="width:100%">
+
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<button type="button"class="btn btn-info text-center">Click</button>
+
+<!-- END MAIN -->
+</div>
+  </section>
+  <!--Review start-->
+  <section class="container-fluid">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active text-white">
+       <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                               cillum dolore eu fugiat nulla pariatur. !</p>
+                            
+                          </div>
+                        </div>
+                      </blockquote>
+    </div>
+    <div class="carousel-item">
+       <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. !</p>
+                            
+                          </div>
+                        </div>
+                      </blockquote>
+    </div>
+    <div class="carousel-item">
+    <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                               cillum dolore eu fugiat nulla pariatur. !</p>
+                            
+                          </div>
+                        </div>
+                      </blockquote>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  </section>
+  <!---About me start-->
+        <section class="container" id="about_me">
+        <div class="row">
+          <div class="col-md-12 col-md-offset-1 col-sm-12">
+            <div class="row">
+              <div class="col-md-5 col-sm-4 col-xs-12">
+                <h3><i class="fa fa-user text-warning"></i>About me</h3>
+                <div class="block text-align-justify">
+                  <p>
+                    I am a passionate User Experience and User Interface Designer who has been working in this field for
+                     more than 3 years now. 
+                  </p>
+                  <p>
+                    You have an idea, you need someone to bring it ot life. Or you already have a product that needs to be 
+                    redined to meet the demand of 2017 users!. This is where i come in! With my knowledge and creativity. 
+                    I can take your idea, your product to the next level. Let's have a chat and discuss your idea!
+                  </p>                  
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-building text-warning"></i>Work history</h3>
+                <div class="block">
+                  <h4>Product Manager</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building text-warning"></i> Dropbox</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2019-Present</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4> Senior UX Designer</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building text-warning"></i> Dropbox</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2019-Present</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>UX Design Intern</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building text-warning"></i> Dropbox</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2019-Present</li>
+                  </ul>
+                </div> 
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-graduation-cap text-warning"></i>Education</h3>
+                <div class="block">
+                  <h4>10Th</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book text-warning"></i>Uttarakhand Board</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2013</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>12Th</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book text-warning"></i> Uttarakhand Board</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2015</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>Computer Science Engineering</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book text-warning"></i> Uttarakhand Technical Education</li>
+                    <li><i class="fa fa-clock-o text-warning"></i> 2015-2018</li>
+                  </ul>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--expertness start-->
+ <section class="container-fluid sdm-bg" id="expertness">
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="col-sm-12">
+            <h3 class="text-center"><i class="fa fa-bookmark text-success"></i>What I Do</h3>
+          </div>
+        </div>
+        <section class="container text-white">
+          <div class="row">
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-android fa-3x text-success"></i>
+                <h4 class="text-uppercase">Mobile Apps</h4>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-code fa-3x text-success"></i>
+                <h4 class="text-uppercase">web design</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-magic fa-3x text-success"></i>
+                <h4 class="text-uppercase">UX/UI Design</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-camera fa-3x text-success"></i>
+                <h4 class="text-uppercase">Photography</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-lightbulb-o fa-3x text-success"></i>
+                <h4 class="text-uppercase">brand identity</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-user-secret fa-3x text-success"></i>
+                <h4 class="text-uppercase">analytics</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis maiores, eos necessitatibus dolores excepturi
+                  sapiente.
+                </p>
+              </div> 
+            </div>
+          </div>
+        </section>
+      </section>
+<!---hire me start-->
+      <section class="container" id="hire_me"> 
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3>Need Any Help?</h3>
+            <h4><i class="fa fa-thumbs-up fa-2x text-info"></i> I am available for freelance hire</h4>
+
+            <nav class="cl-effect-2">
+              <a href="#contact_me"><span data-hover="Hire Me">Hire Me</span></a>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!----contact me start-->
+      <section class="container-fluid" id="contact_me">
+        <div class="overlay-ft"></div>
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="col-sm-12 text-center text-capitalize">
+            <h3>want to discuss a project?</h3>
+            <h4>just drop a message below and i'll get in touch!</h4>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <section class="col-sm-12 col-sm-offset-1">
+            <div class="row text-center">
+              <div class="col-sm-4 col-xs-12">
+                <div class="block">
+                  <i class="fa fa-envelope fa-2x text-info"></i>
+                  <h4 class="text-uppercase">Queries</h4>
+                  <ul class="list-unstyled text-info">
+                    <li>info@mywebsite.com</li>
+                    <li>contact@gmail.com</li>
+                  </ul>
+                </div> 
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="block">
+                  <i class="fa fa-phone fa-2x text-info"></i>
+                  <h4 class="text-uppercase">Call Us</h4>
+                  <ul class="list-unstyled text-info">
+                    <li>info@mywebsite.com</li>
+                    <li>contact@gmail.com</li>
+                  </ul>
+                </div> 
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="block">
+                  <i class="fa fa-home fa-2x text-info"></i>
+                  <h4 class="text-uppercase">Office</h4>
+                  <ul class="list-unstyled text-info">
+                    <li>info@mywebsite.com</li>
+                    <li>contact@gmail.com</li>
+                  </ul>
+                </div> 
+              </div>
+            </div>
+            <form action="" class="row">
+              <div class="col-sm-6 col-xs-12">
+               <div class="form-group">
+                 <label for="your_name">Your Name</label>
+                 <input type="text" class="form-control" id="your_name" placeholder="Write Your Name">
+               </div>
+               <div class="form-group">
+                <label for="your_email">Email</label>
+                <input type="text" class="form-control" id="your_email" placeholder="Enter Your Email">
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <div class="form-group">
+                <label for="your_message">Your Message</label>
+                <textarea class="form-control" rows="5" placeholder="Write Your Message"></textarea>
+                
+              </div>
+            </div>
+            <div class="col-sm-12 text-center margin-top-55 margin-bottom-55">
+              <button type="submit" class="btn btn bg-success">Send Message</button>
+            </div>
+          </form>
+
+          <div class="text-center row">
+            <div class="col-sm-12">
+              <div class="text-center margin-bottom-135">
+                <ul class="social-network spin-icon d-flex">
+                  <li><a href="#"><i class="fa fa-google  fa-2x mt-3"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook  fa-2x  mt-3"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube  fa-2x  mt-3"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram  fa-2x  mt-3"></i></a></li>
+                      </ul>
+                    </div>
+              <p class="text-center margin-top-30">
+               &copy Copyright 2019 <a href="#" class="text text-white"><span> MSADHIKARI@96 </span></a> 
+             </p>
+           </div>
+         </div>
+       </section>
+     </div>
+   </section>
+  </body>
+  </html>
